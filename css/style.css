@@ -1,0 +1,42 @@
+*{margin: 0;
+    padding: 0;
+    text-align: center;
+    user-select: none;
+}
+body{padding: 30px;
+    
+    }
+.box{display: block;
+    border: none;
+    width:fit-content;
+    margin:10px auto;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: -0px 0px 5px gray  ;
+}
+.box1{background-color: rgb(23, 126, 23);
+    width: 100%;
+    margin:18px auto ;
+    color:white;
+    font-size: 15px;
+    padding: 8px;
+    cursor:pointer;
+}
+.box2{
+    cursor:pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    user-select: none;
+}
+.email .box2{
+    border: none;margin:0;
+
+    padding: 0;
+}
+.box .er{
+    background-color:rgba(248, 107, 107, 0.844);
+    border-radius: 10px;
+}
